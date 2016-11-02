@@ -1,0 +1,12 @@
+- trigger: "Engine is Down"
+  pill: "service"
+  tbr: 360
+  param:
+    name: "engine"
+    command: "start"
+
+- trigger: "Queue Error"
+  tbr: 600
+  pill: "service"
+  param:
+    name: "queue"
